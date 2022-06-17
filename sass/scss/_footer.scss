@@ -1,0 +1,20 @@
+footer {
+    background-color: $black;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+p a {
+    font-size: $font-size-footer;
+    color: $white;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    &:hover {
+        color: $yellow;
+    }
+}

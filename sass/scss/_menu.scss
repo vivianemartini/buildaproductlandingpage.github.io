@@ -1,0 +1,115 @@
+.menu-container {
+     background-color: $black;
+     color: $white;
+}
+
+.menu-list {
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type:none;
+
+    a {
+        text-decoration: none;
+        color: $white;
+       
+        &:hover {
+            color: $yellow;
+            border-bottom: solid 3px $yellow;
+            padding-bottom:10px;
+        }
+   
+    }
+}
+
+//menu-dishes
+.menu-dishes {
+    width: 1000px;    
+    margin-left: 130px;
+    margin-top: 20px;
+
+   img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+   }
+}
+
+
+.card-deck {
+    border-radius: 10px;
+}
+
+
+.card-body {
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+h5, .card-text, i, p{
+    color: $black;
+    font-size: $font-size-copy;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+.card-title {
+    width: 170px;
+}
+
+.card-text {
+    width: 80px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-btn {
+    background-color: $white;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    border: none;
+}
+
+.card-number {
+    background-color: $white;
+    border: none;
+    width: 20px;
+    height: 25px;
+    left: 30px;
+    margin-left: 6px;
+    font-size: 18px;
+}
+
+.card-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+    border: none;
+    background-color: $white;
+}
+
+.fa-clock {
+    color: $grey;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.menu-time {
+    margin-left: -25px;;
+    color: $grey;
+    width: 60%;
+}
+
+.menu-price {
+    font-weight: bold;
+}

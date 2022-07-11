@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../scss/style.scss"
+	],
+	"sourcesContent": [
+		"$black: red;\r\n\r\nnav {\r\n background: $black;\r\n width: 50%;\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAEA,AAAA,GAAG,CAAC;EACH,UAAU,EAHH,GAAG;EAIV,KAAK,EAAE,GAAG;CACV"
+}

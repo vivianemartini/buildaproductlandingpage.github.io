@@ -23,14 +23,13 @@
     align-items: center;
     margin-left: -180px;
     height: 200px;
-    border: 1px solid $yellow;
-    border-radius: 5px;
    
 }
 
 .reservation-text h3 {
     color:$white;
     font-size: $font-size-h3;
+    border-bottom: 2px solid $yellow;
 }
 
 .reservation-text p {

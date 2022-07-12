@@ -1,0 +1,75 @@
+.social-media {
+    height: 150px;
+    display: inline-flex;
+    margin-left: 120px;
+    margin-top: 20px;
+    
+    strong {
+        border-bottom: 2px solid $yellow ;
+    }
+
+    p {
+        color:$white;
+        font-size: $font-size-copy;
+    }
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 250px; 
+    cursor: pointer;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: -10px;
+
+    i {
+        font-size: 20px;
+        width: 30px;
+        height: 30px;           
+        border-radius: 40px;
+        background-color: $yellow;
+        display: flex;
+
+        &::before {
+            margin-top: 5px;
+            margin-left: 6px;
+        }
+    }
+    
+}
+
+.follow {
+    margin-top: -22px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px; 
+}
+  
+.schedule{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px; 
+}
+
+.support {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px; 
+}

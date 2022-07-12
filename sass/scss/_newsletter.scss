@@ -6,12 +6,12 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-}
 
-.newsletter p {
-    color:$white;
-    font-size: $font-size-subtitle;
-    border-bottom: 2px solid $yellow;
+    p {
+        color:$white;
+        font-size: $font-size-subtitle;
+        border-bottom: 2px solid $yellow;
+    } 
 }
 
 .newsletter-input-box {
@@ -32,8 +32,8 @@
     color: $white;
     margin-left: 10px;
     border: none;
-    outline-width: 0;  outline-width: 0;
-    }
+    outline-width: 0;
+}
 
 button {
     width: 40px;

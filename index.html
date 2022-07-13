@@ -14,31 +14,36 @@
     <title>freeCodeCamp - Landing Page </title>
 </head>
 <body>
-    <header>
+    <header id="header">
         <div class="nav-container">
-            <img class="logo" src="img/logo.png" alt="logo">
-            <nav  class="nav">
-                <a href="">Home</a>
-                <a href="">Menu</a>
-                <a href="">Gallery</a>
-                <a href="">Reservation</a>
-                <a href="">Review</a>
+            <img id="header-img" class="logo" src="img/logo.png" alt="logo">
+            <button id="btn-mobile">
+                <span id="hamburger"><i class="fa-solid fa-bars"></i></span>
+            </button>
+            <nav id="nav-bar">
+                <ul id="toggle-menu" class="nav">
+                    <li><a class="nav-link" href="#home">Home</a></li>
+                    <li><a class="nav-link" href="#menu">Menu</a></li>
+                    <li><a class="nav-link" href="#reservation">Reservation</a></li>
+                    <li><a class="nav-link" href="#newsletter">Newsletter</a></li>
+                    <li><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
             </nav>
-            <div class="search">
+            <div id="toggle-menu" class="search">
                 <input type="text" placeholder="Search..." name="search">
-                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <button class="btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
             </div>
         </div>
     </header>
 
-    <section class="hero-container">
+    <section id="home" class="hero-container">
             <img class= "hero-img" src="img/page/cover.jpg" alt="hamburger">
             <h1 class="hero-text">Enjoy Our Delicious Food</h1>
             <p class="hero-subtitle">Check out the menu below</p>
     </section>
 
   
-    <div class="menu-container">
+    <div id="menu" class="menu-container">
         <div>
             <ul class="menu-list">
                 <li><a href="">Breakfast</a></li>
@@ -74,7 +79,7 @@
                 </div>
 
                 <div class="card">
-                    <img class="card-img-top" src="img/breakfast/avocado-toast.png" alt="Spinach and Mushrrom Scramble">
+                    <img class="card-img-top" src="img/breakfast/avocado-toast.png" alt="Avocado Toast">
                     <div class="card-body">
                         <h5 class="card-title">Avocado Toast</h5>
                         <div class="card-text">  
@@ -91,9 +96,9 @@
                 </div>
 
                 <div class="card">
-                    <img class="card-img-top" src="img/breakfast/scrumble-eggs.png" alt="Spinach and Mushrrom Scramble">
+                    <img class="card-img-top" src="img/breakfast/pancakes.png" alt="Pancakes">
                     <div class="card-body">
-                        <h5 class="card-title">Spinach and Mushrrom Scramble</h5>
+                        <h5 class="card-title">Pancakes</h5>
                         <div class="card-text">  
                             <span class="card-btn minus"><i class="fa-solid fa-minus"></span></i>
                             <input class="card-number" type="text" value="1"/>
@@ -103,7 +108,7 @@
                     <div class="card-footer">
                         <i class="fa-solid fa-clock"></i>
                         <p class="menu-time">20 min away</p>
-                        <p class="menu-price">$22.00</p>
+                        <p class="menu-price">$20.50</p>
                     </div>
                 </div>
             </div>
@@ -114,9 +119,9 @@
 
             <div id="breakfast" class="card-deck">
                 <div class="card">
-                    <img class="card-img-top" src="img/breakfast/scrumble-eggs.png" alt="Spinach and Mushrrom Scramble">
+                    <img class="card-img-top" src="img/breakfast/fruit-bowl.png" alt="Fruit Bowl">
                     <div class="card-body">
-                        <h5 class="card-title">Spinach and Mushrrom Scramble</h5>
+                        <h5 class="card-title">Fruit Bowl</h5>
                         <div class="card-text">  
                             <span class="card-btn minus"><i class="fa-solid fa-minus"></span></i>
                             <input class="card-number" type="text" value="1"/>
@@ -126,14 +131,14 @@
                     <div class="card-footer">
                         <i class="fa-solid fa-clock"></i>
                         <p class="menu-time">20 min away</p>
-                        <p class="menu-price">$22.00</p>
+                        <p class="menu-price">$18.70</p>
                     </div>
                 </div>
 
                 <div class="card">
-                    <img class="card-img-top" src="img/breakfast/scrumble-eggs.png" alt="Spinach and Mushrrom Scramble">
+                    <img class="card-img-top" src="img/breakfast/french-toast.png" alt="French Toast">
                     <div class="card-body">
-                        <h5 class="card-title">Spinach and Mushrrom Scramble</h5>
+                        <h5 class="card-title">French Toast</h5>
                         <div class="card-text">  
                             <span class="card-btn minus"><i class="fa-solid fa-minus"></span></i>
                             <input class="card-number" type="text" value="1"/>
@@ -143,14 +148,14 @@
                     <div class="card-footer">
                         <i class="fa-solid fa-clock"></i>
                         <p class="menu-time">20 min away</p>
-                        <p class="menu-price">$22.00</p>
+                        <p class="menu-price">$21.20</p>
                     </div>
                 </div>
 
                 <div class="card">
-                    <img class="card-img-top" src="img/breakfast/scrumble-eggs.png" alt="Spinach and Mushrrom Scramble">
+                    <img class="card-img-top" src="img/breakfast/english-breakfast.png" alt="English Breakfast">
                     <div class="card-body">
-                        <h5 class="card-title">Spinach and Mushrrom Scramble</h5>
+                        <h5 class="card-title">English Breakfast</h5>
                         <div class="card-text">  
                             <span class="card-btn minus"><i class="fa-solid fa-minus"></span></i>
                             <input class="card-number" type="text" value="1"/>
@@ -160,14 +165,14 @@
                     <div class="card-footer">
                         <i class="fa-solid fa-clock"></i>
                         <p class="menu-time">20 min away</p>
-                        <p class="menu-price">$22.00</p>
+                        <p class="menu-price">$26.00</p>
                     </div>
                 </div>
             </div>
 
     </section>
 
-    <section class="reservation-container">
+    <section id="reservation" class="reservation-container">
         <div class= "reservation-img"><img src="img/page/reservation.png" alt=""></div>
         <div class="reservation-text">
             <p>Reservation</p>
@@ -177,15 +182,19 @@
     </section>
 
     
-    <section class="newsletter">
+    <video id="video" class="video" controls>
+        <source  src="https://www.youtube.com/watch?v=WWmu6dndxAM" type="video/mp4" mute>
+    </video> 
+
+    <section id="newsletter" class="newsletter">
         <p>Sign Up For Updates</p>
-        <div class="newsletter-input-box">
-            <input type="text" placeholder="Enter Your Email Address" name="search" class="newsletter-input">
-            <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
-        </div>
+        <form id="form" class="newsletter-input-box" action="https://www.freecodecamp.com/email-submit">
+            <input id="email" type="email" placeholder="Enter Your Email Address" name="email" class="newsletter-input">
+            <button id="submit" type="submit" value="Subscribe"><i class="fa-solid fa-paper-plane"></i></button>
+        </form>
     </section>
 
-    <section class="social-media">
+    <section id="contact" class="social-media">
         <div class="social">
             <strong class="follow">Follow Us</strong>
             <div class="social-icons">
@@ -196,7 +205,7 @@
             </div>
         </div>
         <div class="contact">
-            <strong>Contact US</strong><br>
+            <strong>Contact Us</strong><br>
             <p>1600 Clue Amphitheatre Parkway</p>
             <p>Mountain View,CA 94043, USA</p>
         </div>
@@ -217,6 +226,7 @@
         <p><a href="https://www.behance.net/gallery/90004495/Fooder-Restaurant" target="_blank" class="copyright">Design inspired by Md Shofiqul Islam Rana</a></p>
     </footer>
 
-  <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+    <script src="script.js"></script>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     </body>
 </html>

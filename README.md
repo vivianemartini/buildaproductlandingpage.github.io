@@ -6,7 +6,7 @@ You can check the work here: in progress
 # Responsive Web Design Projects
 This is a project for the Responsive Web Design Certification from freeCodeCamp.
 
-By working on this project, I got the chance to apply all of the skills, principles, and concepts I have learned so far: HTML, CSS, Visual Design, Accessibility, and more.
+By working on this project, I got the chance to apply all of the skills, principles, and concepts I have learned so far: HTML, CSS (Sass), Visual Design, Accessibility, and more.
 
 Build a Product Landing Page
 

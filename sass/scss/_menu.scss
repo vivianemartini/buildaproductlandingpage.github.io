@@ -112,3 +112,63 @@ h5 {
 
 .menu-price {
     font-weight: bold;
+}
+
+@media only screen and (max-width: 1066px) {
+    .menu-dishes {
+        margin-left: 60px;
+        width: 890px; 
+    }
+}
+
+@media screen and (max-width: 992px) { 
+    .menu-dishes {
+        margin-left: 40px;
+        width: 890px; 
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .menu-dishes {
+        margin-left: 30px;
+        width: 700px; 
+    }
+
+    .card-body {
+        height: 90px;  
+    }
+
+    .card-title {
+        width: 100px;
+    }
+
+    .card-text {
+        width: 60px;
+        height: 30px;
+    }
+
+    h5, .card-text, i, p {
+        font-size: $font-size-p;
+    }
+
+    .menu-time {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .menu-dishes {
+        margin-left: 40px;
+        width: 400px; 
+    }
+
+    .menu-list {
+       flex-wrap: wrap;
+       gap: 10px; 
+    }
+
+    .menu-time {
+        margin-left: -60px;
+    }
+}
+

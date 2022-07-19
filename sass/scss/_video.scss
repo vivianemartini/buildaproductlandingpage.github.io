@@ -1,7 +1,11 @@
+.media {
+    display: flex;
+    justify-content: center;
+}
+
 .video {
     width: 60%;
     margin-top: 40px;
-   margin-left: 250px;
 }
 
 @media only screen and (max-width: 768px) {

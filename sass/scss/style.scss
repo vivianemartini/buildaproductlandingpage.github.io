@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import "variables";
 @import "header";
 @import "menu";
@@ -11,4 +12,16 @@
     margin: 0;
     padding: 0;
     font-family: $font-family;
+=======
+@import "variables";
+@import "header";
+@import "menu";
+@import "gallery";
+@import "footer";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: $font-family;
+>>>>>>> de99b3311a72b8ffd8907d8849e142a7887145c4
 }

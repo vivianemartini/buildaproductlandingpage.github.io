@@ -1,19 +1,19 @@
-# buildaproductlandingpage.github.io
+## Restaurant Landing Page 🥞🍲🥗
 
-# freeCodeCamp
+## freeCodeCamp
 You can check the work here: https://vivianemartini.github.io/buildaproductlandingpage.github.io/
 
-# Responsive Web Design Projects
+## Responsive Web Design Projects
 This is a project for the Responsive Web Design Certification from freeCodeCamp.
 
 By working on this project, I got the chance to apply all of the skills, principles, and concepts I have learned so far: HTML, CSS (Sass), Visual Design, Accessibility, and more.
 
 Build a Product Landing Page
 
-# Challenge
+## Challenge
 Objective: Build an app that is functionally similar to https://product-landing-page.freecodecamp.rocks
 
-# Rules
+## Rules
 
 User Story #1: Your product landing page should have a header element with a corresponding id="header"
 
@@ -45,6 +45,12 @@ User Story #14: Your product landing page should have at least one media query
 
 User Story #15: Your product landing page should utilize CSS flexbox at least once
 
-# Test result
+## Test result
 
 ![](https://raw.githubusercontent.com/vivianemartini/buildaproductlandingpage.github.io/037365d17612dd0ea7ff8a439f942c796f55e544/result.PNG)
+
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for details
+
+## Acknowledgments
+- Thanks freeCodeCamp
